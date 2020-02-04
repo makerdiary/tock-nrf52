@@ -1,0 +1,4 @@
+[submodule "tock"]
+	path = tock
+	url = https://github.com/makerdiary/tock.git
+	branch = opensk
