@@ -1,4 +1,4 @@
 [submodule "tock"]
 	path = tock
-	url = https://github.com/makerdiary/tock.git
-	branch = opensk
+	url = https://github.com/tock/tock.git
+	branch = master

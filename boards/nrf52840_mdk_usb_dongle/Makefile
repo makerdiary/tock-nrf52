@@ -6,7 +6,7 @@ PLATFORM=nrf52840_mdk_usb_dongle
 
 include ../../tock/boards/Makefile.common
 
-target/$(TARGET)/release/$(PLATFORM).hex: target/$(TARGET)/release/$(PLATFORM).elf
+target/$(TARGET)/release/$(PLATFORM).hex: target/$(TARGET)/release/$(PLATFORM)
 	#$(Q)$(OBJCOPY) --output-target=ihex $^ $@       # llvm-objcopy generates a different hex file
 	$(Q)objcopy --output-target=ihex $^ $@
 

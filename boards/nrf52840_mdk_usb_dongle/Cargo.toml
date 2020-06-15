@@ -23,4 +23,4 @@ cortexm4 = { path = "../../tock/arch/cortex-m4" }
 capsules = { path = "../../tock/capsules" }
 kernel = { path = "../../tock/kernel" }
 nrf52840 = { path = "../../tock/chips/nrf52840" }
-nrf52dk_base = { path = "../../tock/boards/nordic/nrf52dk_base" }
+nrf52_components = { path = "../../tock/boards/nordic/nrf52_components" }
